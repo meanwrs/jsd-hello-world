@@ -427,16 +427,21 @@ body {
 
 /* Next participant */
 #participant-18 {
-	background-color: white;
+  background-color: rgb(38, 168, 191);
+  border: solid #333;
 }
 #participant-18 .profile-photo {
-	background-image: url("../images/participant-photo.png");
+  background-image: url("/images/cow.jpg");
 }
 #participant-18 .participant-name::before {
-	/* content: "Your Name Here"; */
+  content: "18_Manlika(Aom/อ้อม)";
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #participant-18 .participant-quote::before {
-	/* content: "Your inspirational quote here." */
+  content: "โชคดีมีชัย โชคชัยมีวัว🐮";
+  color:#e0f7fa;
 }
 
 /* Next participant */
